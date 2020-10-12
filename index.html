@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <title>Hactoberfest form</title>
 </head>
 <body>
+    <h1>Basic Details Form</h1>
     <div id="form">
-        <form action="#">
+        <form method ="post" name ="form1" id ="form1" action="anita.html" >
             <div id="first-name">
                 First Name:
-                <input type="text" name="first-name" placeholder="Your name...">
+                <input type="text" name="firstName" placeholder="Your name...">
             </div>
             <div id="last-name">
                 Last Name:
-                <input type="text" name="last name" placeholder="Your Last name">
+                <input type="text" name="lastName" placeholder="Your Last name">
             </div>
             <div id="country-select">
                 Country:
-                <select name="" id="">
+                <select name="country" id="">
                     <option value="India">India</option>
                     <option value="pakistan">pakistan</option>
                     <option value="China">China</option>
@@ -29,16 +31,24 @@
             </div>
             <div  id="text-area">
                 <span>Subject:</span>
-                <textarea name="message" rows="8" cols="50" placeholder="Write something...."></textarea>
+                <textarea name="subject" rows="8" cols="50" placeholder="Write something...."></textarea>
             </div>
-            <input type="submit" value="Submit">
+            <div class="btn">
+            <input type="submit" value="Submit" name="submit">
+        </div>
         </form>
     </div>
+    <div class="show">
+        <ul>
+            
+        </ul>
+    </div>
+    <script src="app.js"></script>
 </body>
-    <footer class="page-footer font-small blue">
+    <footer class="page-footer">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+  <div class="footer-copyright">© 2020 Copyright:
     <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
   </div>
   <!-- Copyright -->
