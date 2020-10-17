@@ -13,7 +13,7 @@ body
 }
 h1 {
   text-align: center;
-  background-color: #ff00ff;
+  background-color:  #0400ff;
   color: #ffffff;
   font-family: 'Sofia', cursive;
   box-shadow: 5px 5px 5px 2px #ff00ff;
@@ -24,11 +24,11 @@ h1 {
 #form
 {
     width: 50%;
-    background-color: #ff00ff;
+    background-color: #0077ff7e;
     margin:150px auto;
     padding: 20px 10px ;
     box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
-    background-image: linear-gradient(#ff00ff,red);
+    
     border-radius: 10px;
 
 }
@@ -100,7 +100,7 @@ input:focus,select:focus,textarea:focus
     border-bottom: 3px solid powderblue;
 }
 .page-footer {
-  background-color: #ff00ff;
+  background-color: #5b71ee;
   text-align: center;
   color: #ffffff;
   padding: 1px;
@@ -117,6 +117,6 @@ input:focus,select:focus,textarea:focus
   margin-right: -300px;
 }
 .btn input {
-  background-image: linear-gradient(green,#ff00ff);
+  background-image: linear-gradient(white,blue);
   font-size: 100%;
 }
