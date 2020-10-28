@@ -27,7 +27,8 @@ h1 {
     background-color: #ff00ff;
     margin:150px auto;
     padding: 20px 10px ;
-    box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
+    /*box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);*/
+    box-shadow: 0 2px 4px -1px rgba(0,4,4,.32), 0 4px 5px 0 rgba(0,0,0,.32), 0 1px 10px 0 rgba(0,0,0,.32);
     background-image: linear-gradient(#ff00ff,red);
     border-radius: 10px;
 
@@ -114,9 +115,28 @@ input:focus,select:focus,textarea:focus
   padding: 2px;
 }
 .btn {
-  margin-right: -300px;
+  margin-right: -100px;
+}
+.btn:hover{
+	transition: all .2s ease-out;
+	filter:hue-rotate(-47deg);
+	transform: scale(1.1);
+  overflow: hidden;
 }
 .btn input {
   background-image: linear-gradient(green,#ff00ff);
   font-size: 100%;
 }
+@media (max-width: 570px) {
+   .form1{
+     width:568px;
+   }
+ }
+ @media (max-width: 667px) {
+    .form1{
+      width:568px;
+    }
+    .btn{
+      margin:0px;
+    }
+  }
