@@ -43,6 +43,7 @@ h1 {
   box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);
   background-image: linear-gradient(#ff00ff,red);
   display: none;
+  margin-bottom: 20px;
 }
 .show ul{
   list-style-type: none;
@@ -124,19 +125,15 @@ input:focus,select:focus,textarea:focus
   overflow: hidden;
 }
 .btn input {
-  background-image: linear-gradient(green,#ff00ff);
+  background-color: rgb(68, 23, 110);
   font-size: 100%;
 }
 @media (max-width: 570px) {
-   .form1{
-     width:568px;
+   
+   #form{
+     width: 80vw;
+   }
+   .show{
+     width: 80vw;
    }
  }
- @media (max-width: 667px) {
-    .form1{
-      width:568px;
-    }
-    .btn{
-      margin:0px;
-    }
-  }
