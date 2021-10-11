@@ -10,15 +10,18 @@ body
 {
     width: 100%;
     height: 100%;
+    background-color: rgb(80, 195, 248);
 }
 h1 {
   text-align: center;
-  background-color: #ff00ff;
+  background-color: #00ff9d;
   color: #ffffff;
   font-family: 'Sofia', cursive;
-  box-shadow: 5px 5px 5px 2px #ff00ff;
+  box-shadow: 5px 5px 5px 2px #0fd472;
   border-radius: 10px;
   text-shadow: 5px 5px 5px #000000;
+  font-weight: bold;
+  font-style: italic;
 
 }
 #form
