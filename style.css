@@ -1,6 +1,6 @@
 *
 {
-    margin: 1%;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: none;
@@ -8,20 +8,48 @@
 }
 body
 {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(80, 195, 248);
+
+    background-image:url(images/daniele-levis-pelusi-AqgHZajV-IU-unsplash.jpg); 
+    background-size:     cover;                  
+    background-repeat:   no-repeat;
+    background-position: center center;
 }
+
 h1 {
   text-align: center;
-  background-color: #00ff9d;
+  background-color:black;
   color: #ffffff;
-  font-family: 'Sofia', cursive;
-  box-shadow: 5px 5px 5px 2px #0fd472;
-  border-radius: 10px;
+  padding: 2%;
+  font-family:'Montserrat','sans-serif';
+  box-shadow: 5px 5px 5px 2px pink;
   text-shadow: 5px 5px 5px #000000;
   font-weight: bold;
   font-style: italic;
+
+}
+
+img{
+  flex-shrink:0;
+    -webkit-flex-shrink: 0;
+    max-width:100%;
+    max-height:100%;
+
+}
+.parent{
+  width: 25%;
+  height: 50%;
+}
+
+.box1{
+display:inline-block;
+margin-right: 5%;
+
+}
+
+.box2{
+  display:inline-block;
+
+  border-left: 2%;
 
 }
 #form
@@ -29,11 +57,12 @@ h1 {
     width: 50%;
     background-color: #ff00ff;
     margin:150px auto;
-    padding: 20px 10px ;
+    padding: 20px 20px ;
     /*box-shadow: 2px 2px 14px -1px rgba(0,0,0,0.75);*/
     box-shadow: 0 2px 4px -1px rgba(0,4,4,.32), 0 4px 5px 0 rgba(0,0,0,.32), 0 1px 10px 0 rgba(0,0,0,.32);
-    background-image: linear-gradient(#ff00ff,red);
-    border-radius: 10px;
+    background-color:black;
+    border-radius: 5px;
+
 
 }
 .show{
@@ -62,10 +91,13 @@ h1 {
 }
 form
 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    display: inline-block;
+    border-left:2%;
+
+
 }
+
+
 form div
 {
     width: 100%;
@@ -87,7 +119,13 @@ input,select,textarea
    border: 0px;
    padding: 0 10px;
    border-radius: 3px;
+
 }
+
+.fontcolor{
+  color:white;
+}
+
 #text-area
 {
     align-items: flex-start;
@@ -105,7 +143,7 @@ input:focus,select:focus,textarea:focus
     border-bottom: 3px solid powderblue;
 }
 .page-footer {
-  background-color: #ff00ff;
+  background-color:black;
   text-align: center;
   color: #ffffff;
   padding: 1px;

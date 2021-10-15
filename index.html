@@ -10,16 +10,20 @@
 <body>
     <h1>Basic Details Form</h1>
     <div id="form">
+        <div class="box1 parent">
+            <img src="images/jr-korpa-yhWkR8yF0tk-unsplash.jpg">
+        </div>
+        <div class="box2">
         <form method ="post" name ="form1" id ="form1" action="anita.html" >
-            <div id="first-name">
+            <div id="first-name" class="fontcolor">
                 First Name:
                 <input type="text" name="firstName" placeholder="Your name..." required="required">
             </div>
-            <div id="last-name">
+            <div id="last-name" class="fontcolor">
                 Last Name:
                 <input type="text" name="lastName" placeholder="Your Last name" required="required">
             </div>
-            <div id="country-select">
+            <div id="country-select" class="fontcolor">
                 Country:
                 <select name="country" id="">
                     <option value="India">India</option>
@@ -29,7 +33,7 @@
                     <option value="Japan">Japan</option>
                 </select>
             </div>
-            <div  id="text-area">
+            <div  id="text-area" class="fontcolor">
                 <span>Subject:</span>
                 <textarea name="subject" rows="8" cols="50" placeholder="Write something...."></textarea>
             </div>
@@ -37,6 +41,7 @@
             <input type="submit" value="Submit" name="submit">
         </div>
         </form>
+    </div>
     </div>
     <div class="show">
         <ul>
