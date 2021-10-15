@@ -178,3 +178,15 @@ input:focus,select:focus,textarea:focus
      width: 80vw;
    }
  }
+
+ .sub-btn{
+  text-align: center;
+  margin-left: 200px;
+   margin-top: 10px;
+ }
+
+ @media screen and (max-width: 576px) {
+  body .sub-btn{
+    margin-left: 100px;
+  }
+ }
