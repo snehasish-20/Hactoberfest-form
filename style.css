@@ -65,6 +65,9 @@ margin-right: 5%;
 
 
 }
+#form:hover{
+ transform:translateX(-2%)
+}
 .show{
   border: 2px solid red;
   width: 50%;
@@ -118,7 +121,7 @@ input,select,textarea
    margin-bottom: 10px;
    border: 0px;
    padding: 0 10px;
-   border-radius: 3px;
+   border-radius: 4px;
 
 }
 
@@ -156,9 +159,7 @@ input:focus,select:focus,textarea:focus
   border-radius: 2px;
   padding: 2px;
 }
-.btn {
-  margin-right: -100px;
-}
+
 .btn:hover{
 	transition: all .2s ease-out;
 	filter:hue-rotate(-47deg);
@@ -178,3 +179,13 @@ input:focus,select:focus,textarea:focus
      width: 80vw;
    }
  }
+#first-name,#last-name,#country-select,#subject,.fontcolor{
+  margin: 10px;
+}
+.btn{
+  margin-left: 5cm;
+}
+.heading{
+  text-decoration: underline double white 1px;
+  padding-left: 1px;
+}
